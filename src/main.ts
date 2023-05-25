@@ -1,11 +1,10 @@
-import './style.css'
-import typescriptLogo from '/typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+import './style.css';
+//import typescriptLogo from '/typescript.svg';
 
 const main = () => {
   // get reference to #app div element
   const app = document.querySelector<HTMLDivElement>('#app');
+
 
 }
 
