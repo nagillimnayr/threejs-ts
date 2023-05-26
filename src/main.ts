@@ -27,6 +27,7 @@ const main = () => {
   });
   app?.appendChild(renderer.domElement);
   renderer.setClearColor(0x2d3047); // color: 'Space Cadet'
+  renderer.setPixelRatio(window.devicePixelRatio);
 
   const scene = new Scene();
   const camera = new PerspectiveCamera(75, 2, 0.1, 10000);
