@@ -18,14 +18,14 @@ import './style.css';
 
 const main = () => {
   // get reference to #app div element
-  const app = document.querySelector<HTMLDivElement>('#app');
+  const canvasHolder = document.querySelector<HTMLDivElement>('#canvasHolder');
   const canvas = document.createElement('canvas');
   canvas.id = 'canvas';
   const renderer = new WebGLRenderer({
     canvas,
     antialias: true,
   });
-  app?.appendChild(renderer.domElement);
+  canvasHolder?.appendChild(renderer.domElement);
   renderer.setClearColor(0x2d3047); // color: 'Space Cadet'
 
   const scene = new Scene();
