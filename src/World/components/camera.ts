@@ -1,5 +1,14 @@
 import { PerspectiveCamera } from 'three';
 
+/**
+ * Creates and returns a Three.js PerspectiveCamera object
+ *
+ * @date 5/26/2023 - 11:34:12 AM
+ * @author Ryan Milligan
+ *
+ * @export
+ * @returns {PerspectiveCamera}
+ */
 export default function createCamera() {
   const camera = new PerspectiveCamera(
     75, // FOV
