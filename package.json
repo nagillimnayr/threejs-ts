@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "pretty": "prettier --config .prettierrc.cjs 'src/**/*.ts' --write"
+    "pretty": "prettier --config .prettierrc.cjs 'src/**/*.ts' --write",
+    "cz": "cz"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.6.3",
