@@ -30,7 +30,6 @@ module.exports = {
   },
   rules: {
     indent: 0,
-    //'prettier/prettier': 0,
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 0,
     'import/named': 0,
@@ -39,6 +38,7 @@ module.exports = {
     'import/no-named-as-default-member': 0,
     'no-tabs': ['error', { allowIndentationTabs: true }],
     '@typescript-eslint/indent': 0,
+    '@typescript-eslint/no-unused-vars': 1,
   },
   plugins: ['@typescript-eslint'],
   root: true,
