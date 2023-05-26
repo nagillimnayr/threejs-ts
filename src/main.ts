@@ -8,7 +8,7 @@ import {
   WebGLRenderer,
 } from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
-import resizeCanvas from './modules/utils/canvas';
+import resizeCanvas from './utils/canvas';
 import './style.css';
 
 /** Todo:
@@ -60,7 +60,6 @@ const main = () => {
 
   // Adjust canvas size to be in line with it's display size
   resizeCanvas(renderer);
-
   // render loop
   const render = (time: number) => {
     const deltaTime = time * 0.001;
