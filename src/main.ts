@@ -3,7 +3,7 @@ import './style.css';
 
 const main = () => {
     // get reference to #app div element
-    const app = document.querySelector<HTMLDivElement>('#app');
+    //const app = document.querySelector<HTMLDivElement>('#app');
 };
 
 window.addEventListener('load', main);
