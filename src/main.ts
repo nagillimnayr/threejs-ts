@@ -20,6 +20,7 @@ const main = () => {
   // get reference to #app div element
   const app = document.querySelector<HTMLDivElement>('#app');
   const canvas = document.createElement('canvas');
+  const canvasHolder = document.querySelector('#canvas');
   canvas.id = 'canvas';
   const renderer = new WebGLRenderer({
     canvas,
@@ -80,3 +81,5 @@ const main = () => {
 };
 
 window.addEventListener('load', main);
+
+const sphere = new
